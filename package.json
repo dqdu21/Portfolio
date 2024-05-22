@@ -34,5 +34,9 @@
     "gulp-typescript": "^2.11.0",
     "gulp-util": "^3.0.7",
     "typescript": "^1.7.5"
+  },
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js"
   }
 }
